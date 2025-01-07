@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    animation:mymove 4s infinite;
+}
+@keyframes mymove{
+    from{background-color: rgb(193, 235, 221);}
+    to{background-color: rgb(240, 144, 148);}
+}
+.wrapper{
+    animation:move 2s infinite;
+}
+@keyframes move{
+    from{background-color: rgb(123, 239, 130);}
+    to{background-color: rgb(215, 241, 128);}
+}
+.wrapper{
+    width:80vmin;
+    padding:50px 40px;
+    background-color: aliceblue;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    left:50%;
+    border-radius: 20px 20px 40px;
+
+}
+span{
+     display: block;
+     width:100%;
+     text-align:center;
+     font-size: 100px;
+}
+p{
+    font-size: 16px;
+    color: rgb(46, 4, 196);
+    font-weight: 500;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin:30px o;
+}
+button:hover{
+    background-color: rgb(236, 180, 232);
+}
+button{
+    display:block;
+    background-color: bisque;
+    border:none;
+    padding:5px;
+    font-size: 18px;
+    color: blue;
+    font-weight: 500;
+    padding: 12px 25px;
+    margin:5px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
